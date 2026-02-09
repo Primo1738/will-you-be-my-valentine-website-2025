@@ -4,7 +4,7 @@
 
 const CONFIG = {
     // Your Valentine's name that will appear in the title
-    // Example: "Jade", "Sarah", "Mike"
+    // Example: "Pawi"
     valentineName: "Jalai",
 
     // The title that appears in the browser tab
@@ -25,15 +25,15 @@ const CONFIG = {
             text: "Do you like me?",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
             noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            secretAnswer: "I don't like you, gushtong gushto ehe! ❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
+            text: "How much do you like me?",                          // For the love meter
             startText: "This much!",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
+            text: "Will you be my Valentine on February 17th, 2025? 🌹", // The big question!
             yesBtn: "Yes!",                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
         }
@@ -42,15 +42,15 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much, Babiiii?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "Wehhhhhh telege be?? 🥰🚀💝",  // Shows when they go past 5000%
+        high: "Pereng tenge nemen te enebe! 🚀💝",              // Shows when they go past 1000%
+        normal: "Huy ano ba HAHAHAHAHA! 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your flowers, a big warm hug, and a huge kiss. See you Tomorrow Mahal!",
+        title: "Yay! Iiyak na sana ako eh HAHAHAHAHA! 🎉💝💖💝💓",
+        message: "I hope na sana magustuhan mo ang aking simpleng gift for you hihi. See you soon!",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
